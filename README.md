@@ -6,7 +6,7 @@ alfabetização e geração de inteligência territorial para apoio a políticas
 
 ## Links da entrega
 
-- **Repositório Fase 3:** https://github.com/acorrea79/tech-challenge-fase3-predicao-alfabetizacao
+- **Repositório Fase 3:** https://github.com/acorrea79/IASTTechChallengeFase3
 - **Repositório Fase 2:** https://github.com/acorrea79/techchallenge-fase2-pipeline-alfabetizacao
 - **Vídeo executivo:** adicionar após publicação
 
