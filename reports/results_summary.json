@@ -1,0 +1,110 @@
+{
+  "gold": {
+    "shape": [
+      335551,
+      19
+    ],
+    "nulls": 0,
+    "duplicates": 0,
+    "school_feature_coverage_pct": 100.0,
+    "municipality_network_with_school_variation_pct": 67.15,
+    "schools_2023": 33265,
+    "schools_2024": 38738
+  },
+  "model": {
+    "algorithm": "HistGradientBoosting",
+    "best_cv_pr_auc": 0.5722,
+    "threshold": 0.31,
+    "confusion_matrix": [
+      [
+        32565,
+        78493
+      ],
+      [
+        12167,
+        62240
+      ]
+    ],
+    "baseline_2024": {
+      "accuracy": 0.40119159949316585,
+      "balanced_accuracy": 0.5,
+      "precision": 0.40119159949316585,
+      "recall": 1.0,
+      "f1": 0.5726434552395026,
+      "roc_auc": 0.5,
+      "pr_auc": 0.40119159949316585
+    },
+    "metrics_2024": {
+      "accuracy": 0.5111746151564985,
+      "balanced_accuracy": 0.5648528001478313,
+      "precision": 0.44225590302203466,
+      "recall": 0.8364804386684048,
+      "f1": 0.5785999814074556,
+      "roc_auc": 0.6224792382902508,
+      "pr_auc": 0.5122652032812317,
+      "prevalence": 0.40119159949316585,
+      "threshold": 0.31
+    },
+    "delta_f1": 0.006,
+    "delta_balanced_accuracy": 0.0649,
+    "delta_pr_auc": 0.1111
+  },
+  "phase2_gold": {
+    "rows": 10704,
+    "meta_2030_coverage_pct": 100.0,
+    "consumed_by_prospective_analysis": true
+  },
+  "prospective_2030": {
+    "official_target": 80.0,
+    "risk_total": 2581,
+    "model_score_coverage_pct": 98.22,
+    "prioritizable_with_model_score": 2531,
+    "risk_without_model_score": 50
+  },
+  "top_shap": [
+    {
+      "variavel_base": "sigla_uf",
+      "mean_abs_shap": 0.60583
+    },
+    {
+      "variavel_base": "pib_per_capita",
+      "mean_abs_shap": 0.10648
+    },
+    {
+      "variavel_base": "escola_taxa_preenchimento",
+      "mean_abs_shap": 0.10228
+    },
+    {
+      "variavel_base": "populacao",
+      "mean_abs_shap": 0.07126
+    },
+    {
+      "variavel_base": "escola_qtd_cadernos",
+      "mean_abs_shap": 0.07057
+    },
+    {
+      "variavel_base": "escola_taxa_presenca",
+      "mean_abs_shap": 0.05755
+    },
+    {
+      "variavel_base": "escola_participacao_municipio",
+      "mean_abs_shap": 0.04304
+    },
+    {
+      "variavel_base": "escola_total_registros",
+      "mean_abs_shap": 0.04086
+    },
+    {
+      "variavel_base": "municipio_qtd_escolas_avaliacao",
+      "mean_abs_shap": 0.0329
+    },
+    {
+      "variavel_base": "rede",
+      "mean_abs_shap": 0.01451
+    },
+    {
+      "variavel_base": "escola_taxa_elegiveis",
+      "mean_abs_shap": 0.0
+    }
+  ]
+}
