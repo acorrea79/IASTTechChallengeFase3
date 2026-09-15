@@ -4,11 +4,15 @@
 Projeto de Machine Learning supervisionado para classificação de risco de não
 alfabetização e geração de inteligência territorial para apoio a políticas públicas.
 
+## Responsável pela entrega
+
+- **Andre Correa — RM 371555**
+
 ## Links da entrega
 
 - **Repositório Fase 3:** https://github.com/acorrea79/IASTTechChallengeFase3
 - **Repositório Fase 2:** https://github.com/acorrea79/techchallenge-fase2-pipeline-alfabetizacao
-- **Vídeo executivo:** adicionar após publicação
+- **Vídeo executivo:** em gravação — link será adicionado após publicação
 
 ## Continuidade da Fase 2
 
@@ -211,6 +215,7 @@ Execute:
 O notebook gera Gold, EDA, CSVs, imagens, modelo e a camada territorial derivada
 da Fase 2.
 
+A versão atual do notebook está **executada integralmente e com outputs preservados**.
 A execução de referência está consolidada em `reports/reference_execution.md` e nos
 artefatos versionados deste repositório.
 
