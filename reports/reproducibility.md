@@ -27,5 +27,8 @@ antes das etapas estocásticas.
 
 ## Notebook executado
 
-Para a submissão final, deve ser versionada a cópia do notebook baixada
-diretamente do Colab após `Executar tudo`, preservando os outputs.
+A cópia versionada de `notebooks/01_pipeline_end_to_end.ipynb` foi executada
+integralmente no Google Colab e preserva os outputs da execução de referência.
+
+Na versão final, as **22 células de código** possuem `execution_count`, há
+**48 outputs registrados** e não existem outputs de erro.
